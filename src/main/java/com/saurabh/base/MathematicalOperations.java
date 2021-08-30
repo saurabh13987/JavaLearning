@@ -7,7 +7,7 @@ public class MathematicalOperations {
 		for (int i = 0; i < power - 1; i++) {
 			multipliedNumber = multipliedNumber * number;
 		}
-		return number;
+		return multipliedNumber;
 	}
 
 	public static void isArmstrong(String numberToBeVerified) {
@@ -42,6 +42,7 @@ public class MathematicalOperations {
 		isArmstrong("153");
 		isArmstrong("407");
 		isArmstrong("54748");
+		System.out.println(power(3,5));
 	}
 
 }
