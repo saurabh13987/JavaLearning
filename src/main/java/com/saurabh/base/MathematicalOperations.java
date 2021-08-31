@@ -42,7 +42,6 @@ public class MathematicalOperations {
 		isArmstrong("153");
 		isArmstrong("407");
 		isArmstrong("54748");
-		System.out.println(power(3,5));
 	}
 
 }
